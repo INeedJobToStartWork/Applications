@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/mvp",
+  "name": "@monorepo/applications",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -23,7 +23,7 @@
     "------------------------BUILDS-------------------------": "",
     "dev": "turbo dev",
     "build": "turbo build",
-    "build:dev": "turbo build:dev",
+    "build:dev": "turbo build:dev -- --watch",
     "build:prod": "turbo build:prod",
     "build:npm": "turbo build:npm",
     "------------------------DEPLOYS------------------------": "",
